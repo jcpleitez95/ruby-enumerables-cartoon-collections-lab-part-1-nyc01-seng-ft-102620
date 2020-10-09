@@ -8,5 +8,5 @@ end
 
 def list_dwarves(array)
   total = 0 
-  array.each_with_index
+  array.each_with_index {
 end
