@@ -8,6 +8,6 @@ end
 
 def list_dwarves(array)
   total = 0 
-  array.each_with_index {|index + 1, character|
-  puts "#{index}. #{character}"
+  array.each_with_index {|index, character|
+  puts "#{index + 1}. #{character}"
 end
